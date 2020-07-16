@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import { Route, Switch } from 'react-dom';
+import StarshipDetail from './pages/StarshipDetail/StarshipDetail';
+import StarshipList from './pages/StarshipList/StarshipList';
+import { getStarships } from './services/sw-api';
 
-function App() {
-  return (
+class App extends Component {
+  state = {
+    starships: []
+  }
+
+  async componentDidMount() {
+    const {results} = await getStarships();
+    this.setState({ starships: results})
+    
+  }
+  render () {
+      return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        React Star Wars
       </header>
+      <Switch>
+        <Route exact path="/" render={props =>
+          < StarshipDetail {...props} startships={this.state.starships} /> 
+        }/> 
+        <Route exact path="/:id" render={props =>
+          < StarshipList {...props} /> 
+        }/> 
+      </Switch>
     </div>
   );
 }
-
+}
 export default App;
+///// in cssflex box direction row flex wrap
