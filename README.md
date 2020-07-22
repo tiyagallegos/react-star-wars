@@ -4,7 +4,7 @@ A simple react app for displaying Star Wars Data
 
 ## Technologies 
 - React
-- JS
+- JSX
 - HTML
 - CSS
 - SWAPI - (Star Wars API)
