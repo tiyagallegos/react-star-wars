@@ -1,21 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './StarshipList.css' 
+import './PlanetList.css' 
 
 
 
-function StarshipList(props, idx) {
+function PlanetList(props, idx) {
     return (
         <>
-        <Link className="home" to={'/index'}>🚀</Link>
+        <Link className="home" to={'/index'}>🪐</Link>
         <div >
-            <header className="starshipsHeader">STARSHIPS</header>
+            <header className="PlanetsHeader">Planets</header>
            
             <div className="container">  
-                {props.starships.map((starship, idx) => 
-            <Link className=' StarshipBox'
-                to={`/starships/${idx}`}>  
-                {starship.name}   
+                {props.planets.map((planet, idx) => 
+            <Link className='PlanetBox'
+                to={`/planets/${idx}`}>  
+                {planet.name}   
             </Link>
             )} 
             </div>
@@ -24,7 +24,7 @@ function StarshipList(props, idx) {
     );
 }
 
-export default StarshipList;
+export default PlanetList;
 
 //map over the props make the div a flex container so you can wrap the cards
 //also use a link component from react router dom map the link to the detts page

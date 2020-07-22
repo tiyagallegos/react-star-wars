@@ -6,7 +6,7 @@ function LandingPage (props) {
     return(
     <>   
         <div className="homePage">
-            <Link to='/starships'> 
+            <Link to='/index'> 
                 <img src="https://vignette.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20190313021755"/>
             </Link>
         </div>

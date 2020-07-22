@@ -7,11 +7,10 @@
     font-size: calc(10px + 2vmin);
     color: white;
     background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
-    flex-grow: 1;
-    height: 90vh;
+
   }
 
-.StarshipBox {
+.PlanetBox {
         display: flex;
         background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
         min-height: 100px;
@@ -29,16 +28,31 @@
         border: 6px solid yellow;
     }
 
-    .StarshipBox:hover {
+    .PlanetBox:hover {
             text-decoration: underline;
             cursor: pointer;
     }
 
-    .starshipsHeader {
-        color: white;
-        background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
-    
+    header {
+    color: white;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    font-weight: bold;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: yellow;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
+    background-image: 500px;
+    flex-grow: 1;
     }
+    
     
     .home{
         display: flex;

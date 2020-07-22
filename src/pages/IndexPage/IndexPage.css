@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .reactHeader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: wrap;
+        font-weight: bold;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 45px;
+        color: yellow;
+        background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
+        background-image: 500px;
+        text-decoration: none;
+        margin-bottom: 0;
+    }
+
+    .IndexContainer {
+        background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: wrap;
+        min-height: 100vh;
+        flex-direction: column;
+        font-size: calc(10px + 2vmin);
+        flex-grow: 1;
+        color: yellow
+      }
+
+    .Links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: yellow;
+        text-decoration: none;
+        font-size: 45px;
+        font-weight: bold;
+        height: 100px;
+    }
+
+    .Links:hover {
+        text-decoration: yellow;
+        cursor: pointer;
+        font-size: 45px;
+        font-weight: bold;
+    }

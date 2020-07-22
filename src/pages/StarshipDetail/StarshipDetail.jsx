@@ -5,12 +5,13 @@ import './StarshipDetail.css'
 function StarshipDetail (props) {
     return (
         <div className="containerT"> 
-            <span>NAME</span>
-            <span>{props.starship.name}</span><br/>
+        <header className="ssDetailHeader">
+        {props.starship.name}
+        </header>
             <span>MODEL</span>
             <span>{props.starship.model}</span>
             <Link 
-               to='/starships'>Return     
+               to='/starships'>Back     
            </Link>
         </div>
     );
