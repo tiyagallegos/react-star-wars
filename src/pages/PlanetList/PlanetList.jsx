@@ -26,10 +26,3 @@ function PlanetList(props, idx) {
 
 export default PlanetList;
 
-//map over the props make the div a flex container so you can wrap the cards
-//also use a link component from react router dom map the link to the detts page
-//<div> 
-//{props.shipImages.map((img, idx) =>
- ///   <img key={image} src={require(`icons/${img}.png`)/>
-//)}
-   // </div>  

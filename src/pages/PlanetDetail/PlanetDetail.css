@@ -1,23 +1,42 @@
-.starship-list {
-    
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    flex-wrap: wrap;
-    border: 5px solid rgb(115, 166, 224);
-}
+
 
 .containerP {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: wrap;
-background-color: #282c34;
-min-height: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-font-size: calc(10px + 2vmin);
-color: white;
-}
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    flex-grow: 1;
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .pDetailHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    font-weight: bold;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: yellow;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
+    background-image: 500px;
+    flex-grow: 1;
+  }
+  .bb {
+      text-decoration: none;
+      color: yellow;
+  }
+  .bb:hover {
+      text-decoration: underline;
+      color: yellow;
+  }

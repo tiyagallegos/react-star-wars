@@ -1,8 +1,8 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 }
     .reactHeader{
         display: flex;
@@ -21,6 +21,10 @@
         background-image: 500px;
         text-decoration: none;
         margin-bottom: 0;
+    }
+    .reactHeader:hover {
+        text-decoration: underline;
+        color: yellow;
     }
 
     .IndexContainer {
@@ -49,7 +53,7 @@
     }
 
     .Links:hover {
-        text-decoration: yellow;
+        text-decoration: underline;
         cursor: pointer;
         font-size: 45px;
         font-weight: bold;

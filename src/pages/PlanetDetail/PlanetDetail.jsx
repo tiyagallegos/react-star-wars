@@ -4,19 +4,15 @@ import './PlanetDetail.css'
 
 function PlanetDetail (props) {
     return (
+        <>
+        <header className="pDetailHeader">{props.planet.name}</header>
         <div className="containerP"> 
-            <span>NAME</span>
-            <span>{props.planet.name}</span><br/>
-            <span>CLIMATE</span>
-            <span>{props.planet.climate}</span>
-            <span>TERRAIN</span>
-            <span>{props.planet.terrain}</span>
-            <span>POPULATION</span>
-            <span>{props.planet.population}</span>
-            <Link 
-               to='/planets'>Return     
-           </Link>
+            <span>CLIMATE: {props.planet.climate}</span><br/>
+            <span>TERRAIN: {props.planet.terrain}</span><br/>
+            <span>POPULATION: {props.planet.population}</span><br/>           
+            <Link className="bb" to='/planets'>🪐</Link>
         </div>
+      </>  
     );
 }
 

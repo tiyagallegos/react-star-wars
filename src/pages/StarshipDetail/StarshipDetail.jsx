@@ -8,11 +8,12 @@ function StarshipDetail (props) {
         <header className="ssDetailHeader">
         {props.starship.name}
         </header>
-            <span>MODEL</span>
-            <span>{props.starship.model}</span>
-            <Link 
-               to='/starships'>Back     
+            <span>MODEL:</span>
+            <span>{props.starship.model}</span> <br/>
+            <Link className="backships"
+               to='/starships'>🚀     
            </Link>
+           <br/>
         </div>
     );
 }
