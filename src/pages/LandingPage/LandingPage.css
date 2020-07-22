@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homePage {
+    box-sizing: border-box;
+}
+
+.homePage :hover {
+    cursor: pointer;
+}

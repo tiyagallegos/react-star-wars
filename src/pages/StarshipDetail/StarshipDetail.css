@@ -1,0 +1,23 @@
+.starship-list {
+    
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    border: 5px solid rgb(115, 166, 224);
+}
+
+.containerT {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: wrap;
+background-color: #282c34;
+min-height: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+}

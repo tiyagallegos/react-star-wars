@@ -1,16 +1,23 @@
 .App {
   text-align: center;
+  
 }
 
 
 .App-header {
-  background-color: #282c34;
-  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: wrap;
+  font-weight: bold;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 55px;
+  color: yellow;
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/takeover_pagebackground_stars_14d8d7af_8067271c_91062a90.jpeg?region=0%2C0%2C500%2C500);
+  background-image: 500px;
 }
-
+ 
